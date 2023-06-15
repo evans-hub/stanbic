@@ -15,9 +15,10 @@ public class Order {
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     @Column(name = "id", nullable = false)
     private Long id;
-    private String AccNumber;
+    private String AccountNumber;
     private Double Amount;
     @JoinColumn(name = "bank_id")
     private Bank bank;
+
 
 }
