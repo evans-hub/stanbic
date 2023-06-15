@@ -16,7 +16,7 @@ public class Order {
     @Column(name = "id", nullable = false)
     private Long id;
     private String AccountNumber;
-    private Double Amount;
+    private Double Amounting;
     @JoinColumn(name = "bank_id")
     private Bank bank;
 
